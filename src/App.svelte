@@ -23,7 +23,7 @@
 <main>
   
   <div>
-	<h1>Counter App {new Date()} </h1>
+	<h1>Contador App {new Date()} </h1>
 	<hr>
 	<h2 class={counter<0? "negativo":"positivo"}>Counter {counter}</h2>
 	<button class="add" on:click={()=>modifyCiounter(1)}>+1</button>
