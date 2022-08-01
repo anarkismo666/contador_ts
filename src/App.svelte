@@ -2,7 +2,9 @@
     let counter:number = 0;
  
 	const modifyCiounter=(value:number):number => counter = counter + value;
+
 	/*
+	// Asi estaba
     const add=() : void =>{
         counter++;
     }
@@ -21,7 +23,7 @@
 <main>
   
   <div>
-	<h1>Counter App {new Date()}</h1>
+	<h1>Counter App {new Date()} </h1>
 	<hr>
 	<h2 class={counter<0? "negativo":"positivo"}>Counter {counter}</h2>
 	<button class="add" on:click={()=>modifyCiounter(1)}>+1</button>
